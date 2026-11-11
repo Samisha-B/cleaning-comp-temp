@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { site } from '@/lib/config';
-import { Logo, links } from './Nav';
+import { links } from '@/lib/nav';
+import { Logo } from './Nav';
 
 export default function Footer() {
   const c = site.contact;

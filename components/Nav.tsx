@@ -2,11 +2,7 @@
 import { useEffect, useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { site } from '@/lib/config';
-
-export const links = [
-  { label: 'Home', href: '#home' }, { label: 'Our Services', href: '#services' }, { label: 'About Us', href: '#about' },
-  { label: 'Gallery', href: '#gallery' }, { label: 'Reviews', href: '#reviews' }, { label: 'Contact', href: '#contact' }
-];
+import { links } from '@/lib/nav';
 
 export function Logo({ light = false }: { light?: boolean }) {
   return (
